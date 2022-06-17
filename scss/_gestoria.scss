@@ -1,0 +1,12 @@
+
+#servicios .container{
+    display: flex;
+
+    text-align: center;
+    padding: 100px 15px;
+    ul{
+        color: gray;
+        list-style: inherit;
+        font-weight: 1.2rem;
+    }
+}
