@@ -24,6 +24,7 @@ ul {
   list-style: none; }
 
 li {
+<<<<<<< HEAD
   font-size: 2em; }
 /*button {
     display: inline-flex;
@@ -44,22 +45,71 @@ li {
     position: relative;
     overflow: hidden;
 }
+=======
+  font-size: 2em; 
+}
+button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 70px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+>>>>>>> sass-y-seo
 button span {
 	position: relative;
 	z-index: 2;
 	transition: .3s ease all;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> sass-y-seo
 button::after {
 	content: "";
 	width: 100%;
 	position: absolute;
 	z-index: 1;
 	top: 0;
+<<<<<<< HEAD
 	left:calc(-100% - 80px); 
 	border-bottom: 80px solid blue;
 	border-right: 80px solid transparent;
+=======
+	left: calc(-100% - 70px);
+	border-bottom: 70px solid blue;
+	border-right: 70px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+button:hover::after {
+	left: 0;
+}
+
+/*button::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left:calc(-100% - 80px); 
+	border-bottom: 70px solid blue;
+	border-right: 70px solid transparent;
+>>>>>>> sass-y-seo
 	transition: .4s ease-in-out all;
 }
 
@@ -68,10 +118,17 @@ button:hover::after {
 	left: 0;
 }*/
 
+<<<<<<< HEAD
 
 .container {
   max-width: 1400px;
   margin: auto; }
+=======
+.container {
+  max-width: 1400px;
+  margin: auto; 
+}
+>>>>>>> sass-y-seo
 
 /* header*/
 /*header{
