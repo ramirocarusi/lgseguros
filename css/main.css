@@ -337,28 +337,18 @@ footer .copyright {
     "3 3";
 }
 
-.carta:first-child {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: 1;
+.carta:first-child{
+  grid-area:1;
 }
-
-.button1 {
+.button1{
   grid-area: -4;
 }
-
-.carta:nth-child(2) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+.carta:nth-child(2){
   grid-area: 2;
 }
-
-.button2 {
+.button2{
   grid-area: -3;
 }
-
 /*720px*/
 @media (min-width: 720px) {
   header {
