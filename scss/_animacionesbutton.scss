@@ -1,44 +1,40 @@
 button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 70px;
-    background: #141414;
-    color: #fff;
-    font-family: "Lexend Deca";
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s ease all;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 80px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
 }
+
 button span {
 	position: relative;
 	z-index: 2;
 	transition: .3s ease all;
 }
-
-
 button::after {
 	content: "";
 	width: 100%;
+	height: 100%;
+	background: #100194;
 	position: absolute;
 	z-index: 1;
-	top: 0;
-	left:calc(-100% - 80px); 
-	border-bottom: 80px solid blue;
-	border-right: 80px solid transparent;
-	transition: .4s ease-in-out all;
+	top: -80px;
+	left: 0;
+	transition: .3s ease-in-out all;
 }
-
 
 button:hover::after {
-	left: 0;
+	top: 0;
 }
-
-
