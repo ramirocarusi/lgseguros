@@ -244,12 +244,18 @@ footer .copyright {
 
 #lg-seguros .container {
   text-align: center;
-  padding: 200px 12px;
+  align-items: center;
+  padding: 80px 12px;
+}
+#lg-seguros .container ul{
+  font-size: 10px;
+  color: #070707;
 }
 
 #lg-seguros .container .color-acento {
   color: #0000d6;
 }
+
 
 /*compañias*/
 #nuestras-compañias {
@@ -294,7 +300,14 @@ footer .copyright {
 
 #caracteristicas .container {
   text-align: center;
-  padding: 200px 12px;
+  padding: 100px 12px;
+  font-size: 10px;
+}
+#caracteristicas .container .color-acento {
+  color: #0303bd;
+}
+#caracteristicas .container span{
+  font-weight: bold;
 }
 
 #caracteristicas .li {
@@ -349,6 +362,29 @@ footer .copyright {
 }
 .button2{
   grid-area: -3;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
 }
 /*720px*/
 @media (min-width: 720px) {
@@ -428,6 +464,12 @@ footer .copyright {
 #quienessomos .container h3 {
   color: #0000d6;
 }
+#quienessomos .container .color-acento{
+    color: #0000d6;
+}
+#quienessomos .container span{
+  font-weight: bold;
+}
 
 /*gestoria*/
 #servicios .container {
@@ -444,7 +486,6 @@ footer .copyright {
   font-weight: 1.2rem;
 }
 
-
 button {
 	display: inline-flex;
 	align-items: center;
@@ -453,8 +494,7 @@ button {
 	height: 80px;
 	background: #141414;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 10px;
 	font-weight: 500;
 	border: none;
 	cursor: pointer;
