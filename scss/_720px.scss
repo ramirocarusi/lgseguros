@@ -1,0 +1,67 @@
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0%;
+        padding-right: 20px;
+        color: white;
+    }
+    #hero h1{
+        font-size: 5em;
+    }
+    #lg-seguros .container{
+        display: flex;
+     }
+     #lg-seguros .texto{
+        width:50%;
+        max-width:600px;
+        text-align:initial;
+        padding-left:30px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+     }
+     #lg-seguros h2{
+        margin-top:0px;
+     }
+     #lg-seguros .img-container{
+        background-image:url("./img/gareca\ lorena\ seguros.jfif");
+        background-size:cover;
+        background-position:center center;
+        height:500px;
+        width:400px;
+        justify-content:space-evenly;
+     }
+     #nuestras-compañias .container .compañias{
+        display: grid; 
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows: (auto);
+        grid-template-areas:
+         1 2 3
+         4 5 6;
+        gap: 20px;
+        /*display: flex;
+         justify-content: center;*/
+     }
+     .carta:first-child{
+         display: grid;
+         grid-area: 1;
+     }
+     .carta:nth-child(2){
+         grid-area: 1
+     }
+     .carta:nth-child(3){
+         grid-area: 1;
+     }
+     .button1{
+         grid-area: -3;
+     }
+}    
