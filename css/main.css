@@ -525,6 +525,29 @@ button::after {
 button:hover::after {
 	top: 0;
 }
+.hero-gestoria{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  height: 90vh;
+  background-image:linear-gradient(0deg, 
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)), 
+     url(../img/);
+     background-repeat: no-repeat ;
+     background-size: cover;
+     background-position: center center;
+     h1{
+      color: white;
+  }
+
+}
+.hero-gestoria h1{
+  color: white;
+}
 
 /*servicios*/
 #serviciosfotos .container {
