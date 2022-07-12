@@ -450,8 +450,21 @@ footer .copyright {
 .my-float{
 	margin-top:16px;
 }
-/*480*/
-
+/*420*/
+@media (max-width: 420px){
+  #lg-seguros .video-publicitario iframe{
+    width: 340px;
+  }
+  /*cartas para dispositivos mobiles*/
+  .carta .col{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0%;
+  }
+}
 
 /*720px*/
 @media (min-width: 720px) {
