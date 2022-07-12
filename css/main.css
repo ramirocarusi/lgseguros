@@ -270,6 +270,8 @@ footer .copyright {
 #lg-seguros .container ul{
   font-size: 10px;
   color: #070707;
+  list-style: none;
+  text-decoration: none;
 }
 
 #lg-seguros .container .color-acento {
@@ -448,10 +450,12 @@ footer .copyright {
 .my-float{
 	margin-top:16px;
 }
+/*480*/
+
+
 /*720px*/
 @media (min-width: 720px) {
   header {
-    position: fixed;
     width: 100%; }
   header .container {
     flex-direction: row;
@@ -576,11 +580,20 @@ footer .copyright {
 
 #servicios .container ul {
   color: gray;
-  list-style: inherit;
   font-weight: 1.2rem;
 }
 
 /*servicios*/
+.titulo-servicios{
+  background-color: #100194;
+  margin-top: 20px;
+}
+.titulo-servicios h1{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
 
 
 
