@@ -456,14 +456,7 @@ footer .copyright {
     width: 340px;
   }
   /*cartas para dispositivos mobiles*/
-  .carta .col{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    padding: 0%;
-  }
+
 }
 
 /*720px*/
@@ -515,7 +508,10 @@ footer .copyright {
   .carta:nth-child(3) {
     grid-area: 1; }
   .button1 {
-    grid-area: -3; } }
+    grid-area: -3; } 
+  /*cartas servicios*/
+  
+}
 /*ubicacion*/
 #datoscontacto .container {
   text-align: center;
